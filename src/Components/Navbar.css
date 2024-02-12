@@ -1,0 +1,548 @@
+#aa {
+    display: flex;
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+}
+#logo{
+    position: absolute;
+    left: 10%;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+
+}
+#aa.active {
+    color: red; /* Text color for the active link */
+   
+  }
+  
+#aa:hover{
+    color: rgb(231, 187, 187);
+    text-decoration: underline;
+  
+}
+.navbar-nav {
+    margin-left: 500px;
+    width: auto;
+
+
+}
+
+.navbar {
+    position: fixed;
+    background-color: rgb(33, 31, 31);
+    width: 100%;
+    height: 80px;
+    z-index: 1;
+}
+
+.login {
+    display: flex;
+    margin-left: 300px;
+}
+.button {
+    width: 105px;
+    height: 42px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 1rem;
+    border: 1px solid rgb(206, 74, 74);
+    position: relative;
+  background: none;
+    transition: 0.1s;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+}
+.button a:hover{
+    color: red;
+}
+.button:hover {
+    transform: scale(0.9) rotate(3deg);
+    background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+    transition: 0.5s;
+}
+
+.nano {
+    background-color: rgb(33, 31, 31);
+    width: 100%;
+    height: 100vh;
+
+    font-size: larger;
+}
+.resume{
+ position: relative;
+ left: 43%;
+ top: 50%;
+ width: 200px;
+ animation: fadeInRight 2s ease-in-out;
+}
+.pic3{
+    width: 500px;
+    height: 500px;
+}
+
+
+.nano h1 {
+    position: relative;
+    top: 300px;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    
+
+   
+}
+
+.nano h4 {
+    position: relative;
+    top: 300px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+ 
+
+}
+
+span {
+    color: red;
+}
+.aaa{
+    text-align: center;
+    
+   
+}
+
+.pic1 {
+    width: 100%;
+}
+
+.Home {
+   
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    font-size: larger;
+}
+.cont {
+   
+    width: 100%;
+    height: 105vh;
+    display: flex;
+   
+}
+
+table{
+   margin-left: 200px;
+    margin-top: 150px;
+    border: 2px solid black;
+    box-shadow: 10px 5px 10px 5px #AAA;
+}
+table input{
+    width: 400px;
+    height: 50px;
+   margin:20px;
+   padding: 10px;
+
+}
+table textarea{
+    padding: 10px;
+    margin: 20px;
+}
+.homee h1{
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+
+.aboutpic {
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    animation: fadeInLeft 2s ease-in-out;
+}
+
+.about {
+    width: 780px;
+    height: auto;
+
+    position: relative;
+    left: 150px;
+    top: 100px;
+    animation: fadeInRight 2s ease-in-out;
+}
+
+.about h1 {
+    position: relative;
+    top: 10px;
+    left: 20px;
+
+}
+
+.about h4 {
+    position: relative;
+    top: 10px;
+    text-align: justify;
+
+
+
+}
+
+.about hr {
+    width: 200px;
+    color: black;
+
+}
+
+.skills {
+    background-color: rgb(252, 249, 249);
+    width: 100%;
+    height: 80vh;
+   
+   
+   
+}
+
+.icon{
+    position: relative;
+    top: 50px;
+    left: -60px;
+}
+.icon ul{
+    display: flex;
+}
+.icon ul li{
+    list-style: none;
+    margin-left: 40px;
+    background-color: rgb(33, 31, 31);
+    
+    border-radius: 50%;
+    color: black;
+    
+}
+.icon ul li a{
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+    padding: 10px;
+}
+.icon ul li a:hover{
+    color: black;
+}
+.icon ul li:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid;
+
+}
+.box{
+    width: 100%;
+    height: 50vh;
+   
+    display: flex;
+}
+.car{
+    width: 22rem;
+    height: 300px;
+   margin-left: 100px;
+   position: relative;
+   top: 50px;
+   background: none;
+   border: 1px solid rgb(206, 74, 74);
+    
+}
+.body{
+    padding: 20px;
+    width: 100%;
+    height: auto;
+}
+.card-body button{
+    margin: 10px;
+    border: 1px solid rgb(206, 74, 74);
+    background: none;
+    border-radius: 10px;
+    padding: 5px;
+    
+    
+}
+.card-body button .logo{
+    width: 25px;
+    height: 20px;
+
+}
+.card-body button:hover{
+    transform: scale(0.9) rotate(3deg);
+    background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+    transition: 0.5s;
+}
+.project{
+   width: 100%;
+    height: 200vh;
+    background-color: rgb(33, 31, 31);
+}
+.project h1{
+    color: white;
+    position: relative;
+    top: 90px;
+}
+.projectnames{
+    position: relative;
+    top:150px;
+   
+    
+}
+.web{
+    width: 100%;
+    height: auto;
+    /* display: inline-flex; */
+   
+   
+   
+   
+   
+}
+.nann{
+   width: 100%;
+   height: auto;
+   margin-left: 70px;
+ 
+}
+.xx{
+    width: 18rem;
+    margin: 30px;
+}
+.pro{
+    width: 100%;
+    height: 200px;
+    
+}
+
+
+.projectnames button{
+    position: relative;
+    left: 100px;
+    background: none;
+    color: white;
+    padding: 10px;
+}
+.projectnames button:hover{
+    background-color: white;
+    color: black;
+}
+.row{
+    width: 95%;
+}
+.icon-contact{
+   margin-left: 200px;
+   
+  
+   
+}
+.address{
+    margin-left: 100px;
+    margin-top: 200px;
+    width: 100%;
+   
+    
+ }
+.address ul li{
+    list-style: none;
+    padding: 20px;
+    font-size: 30px;
+
+}
+.address ul li i{
+    padding: 10px;
+    font-size: 40px;
+    color: red;
+}
+.address ul li a{
+    font-size: 40px;
+   text-decoration: none;
+   color: black;
+   margin-left: 5px;
+}
+.btn{
+    background: none;
+    color: black;
+    width: 100%;
+}
+ 
+
+
+
+@media (max-width:450px) {
+    .Home {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    
+
+    .box{
+        display: block;
+        height: auto;
+
+    }
+    .card{
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+
+    .about {
+        width: 90%;
+        height: auto;
+       
+        position: relative;
+        left: 5%;
+        top: 100px;
+    }
+
+    .aboutpic {
+        width: 100%;
+        height: 500px;
+
+        position: relative;
+        left: 0px;
+        top: 50px;
+    }
+    .skills{
+        margin-top: 150px;
+        height: auto;
+    }
+    .pic3{
+        width: 100%;
+    }
+    .resume{
+        position: relative;
+        left: 20%;
+    }
+    .card{
+        margin-left: 6%;
+    }
+    .project{
+        margin-top: 100px;
+        height: auto;
+    }
+    .projectnames button{
+        position: relative;
+        left: 5%;
+    }
+    .abc{
+        width: 300px;
+    }
+    .nann{
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+      
+     }
+   
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .fadeInUp {
+    animation:  3s ease-in-out;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+  }
+  /* @-webkit-keyframes fadeInRight {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .fadeInRight {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+  } */
+ 
+@-webkit-keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .fadeInLeft {
+    animation:  4s ease-in-out;
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+  }   
