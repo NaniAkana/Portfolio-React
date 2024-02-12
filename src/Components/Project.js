@@ -179,7 +179,7 @@ export const Project = () => {
                     Developed a responsive and user-friendly 
                       platform utilizing React JS.
                     </p>
-                    <a href="#" class="btn btn-primary button">
+                    <a href="https://github.com/NaniAkana/Portfolio-React" class="btn btn-primary button">
                       Open Project
                     </a>
                   </div>
@@ -340,7 +340,7 @@ export const Project = () => {
                     Developed a responsive and user-friendly 
                       platform utilizing React JS.
                     </p>
-                    <a href="#" class="btn btn-primary  button">
+                    <a href="https://github.com/NaniAkana/Portfolio-React" class="btn btn-primary  button">
                       Open Project
                     </a>
                   </div>
